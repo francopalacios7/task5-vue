@@ -45,8 +45,6 @@ const app = createApp({
 
 
         this.categories = this.arrayEvents.map((e) => e.category);
-        const noRepeatCategories = [...new Set(this.categories)];
-
         this.filterArrayUp()
         this.filterArrayPast()
       })
@@ -71,7 +69,7 @@ const app = createApp({
               revenue: this.categoryRevenueUp
             };
             this.totalRevenuesUp[category] = this.categoryRevenueUp;
-            console.log(this.totalEstimate);
+            console.log(this.categoryRevenueUp);
 
             
           } else {

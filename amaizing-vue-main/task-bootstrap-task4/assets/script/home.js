@@ -8,7 +8,6 @@ const app = createApp({
       arrayFilteredChecks: [],
       searchValue: "",
       arrayFilteredEvents: [],
-
     }
   },
   created() {
